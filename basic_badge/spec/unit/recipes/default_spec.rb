@@ -15,6 +15,10 @@ describe 'basic_badge::default' do
       runner.converge(described_recipe)
     end
 
+    describe package('nano') do
+      it { should be_installed }
+    end
+
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end

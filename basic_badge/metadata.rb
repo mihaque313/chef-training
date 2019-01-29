@@ -1,4 +1,4 @@
-name 'chef-training'
+name 'basic_badge'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
